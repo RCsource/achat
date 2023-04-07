@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "achat"
+version = "0.1.0"
+description = "asynchronous wrapper over the chatsonic api for the python programming language"
+authors = ["saladware <saladware46@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.4"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.2"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
